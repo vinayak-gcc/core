@@ -51,7 +51,7 @@ const Sidebar: React.FC<SidebarProps> = ({ onClose }) => {
             </div>
 
             {/* Menu */}
-            <div className="flex flex-col gap-[32px] px-[16px] py-[24px] flex-grow">
+            <div className="flex flex-col px-[16px] py-[24px] flex-grow">
                 {menuItems.map((item) => (
                     <div
                         key={item.name}
