@@ -1,5 +1,26 @@
 @import "tailwindcss";
 
+@font-face {
+  font-family: "Brother 1816";
+  src: url("/font/Brother-1816/Brother-1816-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Brother 1816";
+  src: url("/font/Brother-1816/Brother-1816-Medium.woff2") format("woff2");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Brother 1816";
+  src: url("/font/Brother-1816/Brother-1816-Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+}
+
 :root {
   --background: #ffffff;
   --foreground: #171717;
@@ -20,7 +41,6 @@
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Brother 1816", sans-serif;
+  /* letter-spacing: -0.02em; */
 }
