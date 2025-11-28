@@ -16,17 +16,17 @@ A responsive and interactive HR Management dashboard built with Next.js and Tail
 ## Folder Structure
 ```
 core/
-├── app/              # Next.js App Router pages
-├── components/       # Reusable UI components
-│   ├── Card/         # User profile cards (Grid/List)
-│   ├── MobileSidebar/# Responsive mobile sidebar
-│   ├── Navbar/       # Top navigation bar
-│   ├── Pagination/   # Pagination controls
-│   ├── Sidebar/      # Main navigation sidebar
-│   ├── Toolbar/      # Search and filter tools
+├── app/                    # Next.js App Router pages
+├── components/             # Reusable UI components
+│   ├── Card/               # User profile cards (Grid/List)
+│   ├── MobileSidebar/      # Responsive mobile sidebar
+│   ├── Navbar/             # Top navigation bar
+│   ├── Pagination/         # Pagination controls
+│   ├── Sidebar/            # Main navigation sidebar
+│   ├── Toolbar/            # Search and filter tools
 │   └── ...
-├── public/           # Static assets (icons, images)
-└── ...
+├── public/                 # Static assets (icons, images)
+
 ```
 
 ## Key Components
