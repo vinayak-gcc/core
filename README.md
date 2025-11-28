@@ -24,7 +24,7 @@ core/
 │   ├── Pagination/         # Pagination controls
 │   ├── Sidebar/            # Main navigation sidebar
 │   ├── Toolbar/            # Search and filter tools
-│   └── ...
+│   
 ├── public/                 # Static assets (icons, images)
 
 ```
@@ -38,10 +38,10 @@ core/
 -   **Mobile Sidebar**: Responsive sidebar drawer for mobile devices.
 
 ## Future Improvements
--   [ ] **Dark Mode**: Toggle between light and dark themes.
--   [ ] **Backend Integration**: Connect to a real API for data fetching.
--   [ ] **User Authentication**: Login and protected routes.
--   [ ] **Advanced Filtering**: More complex filter options in the toolbar.
+-   **Dark Mode**: Toggle between light and dark themes.
+-   **Backend Integration**: Connect to a real API for data fetching.
+-   **User Authentication**: Login and protected routes.
+-   **Advanced Filtering**: More complex filter options in the toolbar.
 
 ## Getting Started
 
