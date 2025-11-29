@@ -9,7 +9,7 @@ const Navbar = () => {
   useEffect(() => {
     const updateTime = () => {
       const now = new Date()
-      const timeString = now.toLocaleTimeString('en-US', {
+      const timeString = now.toLocaleTimeString('en-IN', {
         hour12: false,
         hour: '2-digit',
         minute: '2-digit',

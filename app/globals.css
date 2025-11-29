@@ -42,5 +42,6 @@
 
 body {
   font-family: "Brother 1816", sans-serif;
+  /* Did Not implemented this since it made the text look too close  */
   /* letter-spacing: -0.02em; */
 }

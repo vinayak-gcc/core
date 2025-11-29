@@ -92,6 +92,7 @@ const CardItem: React.FC<CardProps> = ({ image, name, role, active, viewMode }) 
             width={130}
             height={130}
             className="object-cover w-full h-full"
+            priority
           />
         </div>
         {/* Online status indicator */}
@@ -139,7 +140,8 @@ const Cards = () => {
           />
         ))}
       </div>
-
+      
+      {/* Pagination Section */}
       <Pagination />
 
     </div>

@@ -19,7 +19,6 @@ const Pagination = () => {
             {/* Navigation */}
             <div className="flex items-center">
                 <button title="Previous Page" className="p-1 hover:bg-gray-100 ml-2 rounded-full transition-all cursor-pointer hover:scale-110">
-                    {/* Rotated next.svg for previous */}
                     <Image
                         src="/ArrowLeft.svg"
                         alt="Previous"

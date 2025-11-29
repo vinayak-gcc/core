@@ -57,11 +57,14 @@ const Sidebar: React.FC<SidebarProps> = ({ onClose }) => {
                         key={item.name}
                         title={item.name}
                         onClick={() => setActiveItem(item.name)}
-                        className={`flex items-center justify-between px-[16px] rounded-[16px] cursor-pointer transition-colors py-[16px] ${activeItem === item.name
+                        className={`relative flex items-center justify-between px-[16px] rounded-[16px] cursor-pointer transition-colors py-[16px] ${activeItem === item.name
                             ? "bg-white text-[#3d3936]"
                             : "text-[#aeb1b6] hover:text-white"
                             }`}
                     >
+                        {activeItem === item.name && (
+                            <div className="absolute left-[-16px] top-1/2 -translate-y-1/2 w-[4px] h-[30px] bg-white rounded-r-[4px]" />
+                        )}
                         <div className="flex items-center gap-[12px]">
                             <div className="relative flex items-center justify-center">
                                 <Image
